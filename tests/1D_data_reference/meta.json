@@ -1,0 +1,577 @@
+{
+  "register": {
+    "channels": [
+      {
+        "default_name": "magnet/x",
+        "registered_name": "Bx",
+        "name": "Bx",
+        "class": "qd.classes.Channel",
+        "instrument": "magnet",
+        "meta": {},
+        "channel_id": "x"
+      },
+      {
+        "default_name": "magnet/z",
+        "registered_name": "Bz",
+        "name": "Bz",
+        "class": "qd.classes.Channel",
+        "instrument": "magnet",
+        "meta": {},
+        "channel_id": "z"
+      },
+      {
+        "default_name": "triton/MC",
+        "base_channel": "triton/MC",
+        "registered_name": "MC",
+        "name": "MC",
+        "class": "qd.comb.MemoizeChannel",
+        "memoize_time": 20,
+        "meta": {},
+        "channel_id": null
+      },
+      {
+        "default_name": "smua/v",
+        "registered_name": "backgate",
+        "name": "backgate",
+        "class": "qd.classes.Channel",
+        "instrument": "smua",
+        "meta": {},
+        "channel_id": "v"
+      },
+      {
+        "default_name": "henry/in",
+        "registered_name": "henry/in",
+        "name": "henry/in",
+        "class": "qd.classes.Channel",
+        "instrument": "henry",
+        "meta": {},
+        "channel_id": "in"
+      },
+      {
+        "default_name": "lockin_right/X",
+        "registered_name": "lockin_right/X",
+        "name": "lockin_right/X",
+        "class": "qd.classes.Channel",
+        "instrument": "lockin_right",
+        "meta": {},
+        "channel_id": "X"
+      },
+      {
+        "default_name": "lockin_right/Y",
+        "registered_name": "lockin_right/Y",
+        "name": "lockin_right/Y",
+        "class": "qd.classes.Channel",
+        "instrument": "lockin_right",
+        "meta": {},
+        "channel_id": "Y"
+      },
+      {
+        "default_name": "dac/CH0",
+        "registered_name": "source",
+        "name": "source",
+        "class": "qd.classes.Channel",
+        "instrument": "dac",
+        "meta": {},
+        "channel_id": "CH0"
+      },
+      {
+        "default_name": "Time/time",
+        "registered_name": "time",
+        "name": "time",
+        "class": "qd.classes.Channel",
+        "instrument": "Time",
+        "meta": {},
+        "channel_id": "time"
+      },
+      {
+        "default_name": "triton/MC",
+        "registered_name": "triton/MC",
+        "name": "triton/MC",
+        "class": "qd.classes.Channel",
+        "instrument": "triton",
+        "meta": {},
+        "channel_id": "MC"
+      }
+    ],
+    "instruments": [
+      {
+        "limits": {
+          "CH13": [
+            -10,
+            10
+          ],
+          "CH12": [
+            -10,
+            10
+          ],
+          "CH11": [
+            -10,
+            10
+          ],
+          "CH10": [
+            -10,
+            10
+          ],
+          "CH17": [
+            -10,
+            10
+          ],
+          "CH16": [
+            -10,
+            10
+          ],
+          "CH15": [
+            -10,
+            10
+          ],
+          "CH9": [
+            -10,
+            10
+          ],
+          "CH14": [
+            -10,
+            10
+          ],
+          "CH7": [
+            -10,
+            10
+          ],
+          "CH8": [
+            -10,
+            10
+          ],
+          "CH19": [
+            -10,
+            10
+          ],
+          "CH5": [
+            -10,
+            10
+          ],
+          "CH18": [
+            -10,
+            10
+          ],
+          "CH6": [
+            -10,
+            10
+          ],
+          "CH4": [
+            -10,
+            10
+          ],
+          "CH3": [
+            -10,
+            10
+          ],
+          "CH2": [
+            -10,
+            10
+          ],
+          "CH1": [
+            -10,
+            10
+          ],
+          "CH0": [
+            -10,
+            10
+          ]
+        },
+        "model": "DecaDAC",
+        "registered_name": "dac",
+        "name": "dac",
+        "ranges": {
+          "CH13": [
+            -10,
+            10
+          ],
+          "CH12": [
+            -10,
+            10
+          ],
+          "CH11": [
+            -10,
+            10
+          ],
+          "CH10": [
+            -10,
+            10
+          ],
+          "CH17": [
+            -10,
+            10
+          ],
+          "CH16": [
+            -10,
+            10
+          ],
+          "CH15": [
+            -10,
+            10
+          ],
+          "CH9": [
+            -10,
+            10
+          ],
+          "CH14": [
+            -10,
+            10
+          ],
+          "CH7": [
+            -10,
+            10
+          ],
+          "CH8": [
+            -10,
+            10
+          ],
+          "CH19": [
+            -10,
+            10
+          ],
+          "CH5": [
+            -10,
+            10
+          ],
+          "CH18": [
+            -10,
+            10
+          ],
+          "CH6": [
+            -10,
+            10
+          ],
+          "CH4": [
+            -10,
+            10
+          ],
+          "CH3": [
+            -10,
+            10
+          ],
+          "CH2": [
+            -10,
+            10
+          ],
+          "CH1": [
+            -10,
+            10
+          ],
+          "CH0": [
+            -10,
+            10
+          ]
+        },
+        "channels": [
+          "CH0",
+          "CH1",
+          "CH2",
+          "CH3",
+          "CH4",
+          "CH5",
+          "CH6",
+          "CH7",
+          "CH8",
+          "CH9",
+          "CH10",
+          "CH11",
+          "CH12",
+          "CH13",
+          "CH14",
+          "CH15",
+          "CH16",
+          "CH17",
+          "CH18",
+          "CH19"
+        ],
+        "class": "qd.ins.DecaDAC2",
+        "current_values": {
+          "CH13": 1.5259021896696368E-4,
+          "CH12": 0.12497138933394325,
+          "CH11": 1.5259021896696368E-4,
+          "CH10": 1.5259021896696368E-4,
+          "CH17": 1.5259021896696368E-4,
+          "CH16": 1.5259021896696368E-4,
+          "CH15": 1.5259021896696368E-4,
+          "CH9": 1.5259021896696368E-4,
+          "CH14": 1.5259021896696368E-4,
+          "CH7": 1.5259021896696368E-4,
+          "CH8": 1.5259021896696368E-4,
+          "CH19": 1.5259021896696368E-4,
+          "CH5": 1.5259021896696368E-4,
+          "CH18": 1.5259021896696368E-4,
+          "CH6": 1.5259021896696368E-4,
+          "CH4": 1.5259021896696368E-4,
+          "CH3": 1.5259021896696368E-4,
+          "CH2": 1.5259021896696368E-4,
+          "CH1": 1.5259021896696368E-4,
+          "CH0": 1.5259021896696368E-4
+        },
+        "ramp_rates": {
+          "CH13": 0.5,
+          "CH12": 0.5,
+          "CH11": 0.5,
+          "CH10": 0.5,
+          "CH17": 0.5,
+          "CH16": 0.5,
+          "CH15": 0.5,
+          "CH9": 0.5,
+          "CH14": 0.5,
+          "CH7": 0.5,
+          "CH8": 0.5,
+          "CH19": 0.5,
+          "CH5": 0.5,
+          "CH18": 0.5,
+          "CH6": 0.5,
+          "CH4": 0.5,
+          "CH3": 0.5,
+          "CH2": 0.5,
+          "CH1": 0.5,
+          "CH0": 3
+        }
+      },
+      {
+        "model": "Agilent34401A",
+        "registered_name": "henry",
+        "name": "henry",
+        "config": {"NPLC": "+2.00000000E-01"},
+        "channels": ["in"],
+        "class": "qd.ins.AgilentDMM"
+      },
+      {
+        "model": "Agilent34401A",
+        "registered_name": "indiana",
+        "name": "indiana",
+        "config": {"NPLC": "+2.00000000E-01"},
+        "channels": ["in"],
+        "class": "qd.ins.AgilentDMM"
+      },
+      {
+        "model": "SR830",
+        "registered_name": "lockin_left",
+        "name": "lockin_left",
+        "config": {
+          "RMOD": "1",
+          "FMOD": "1",
+          "sensitivity": 1.0E-4,
+          "SYNC": "1",
+          "IGND": "0",
+          "SLVL": "0.004",
+          "SENS": "14",
+          "OFSL": "3",
+          "timeconst": 3,
+          "ICPL": "0",
+          "PHAS": "-92.14",
+          "FREQ": "113",
+          "ISRC": "1",
+          "ampl": "0.004",
+          "HARM": "1",
+          "OFLT": "11",
+          "RSLP": "1",
+          "ILIN": "0"
+        },
+        "channels": [
+          "X",
+          "Y",
+          "R",
+          "theta",
+          "freq",
+          "display1",
+          "display2",
+          "slvl",
+          "oflt",
+          "ampl",
+          "auxout1",
+          "auxout2",
+          "auxout3",
+          "auxout4"
+        ],
+        "class": "qd.ins.SR830LockIn"
+      },
+      {
+        "model": "SR830",
+        "registered_name": "lockin_right",
+        "name": "lockin_right",
+        "config": {
+          "RMOD": "1",
+          "FMOD": "1",
+          "sensitivity": 0.2,
+          "SYNC": "1",
+          "IGND": "0",
+          "SLVL": "0.5",
+          "SENS": "24",
+          "OFSL": "3",
+          "timeconst": 0.03,
+          "ICPL": "0",
+          "PHAS": "-1.34",
+          "FREQ": "38",
+          "ISRC": "0",
+          "ampl": "0.5",
+          "HARM": "1",
+          "OFLT": "7",
+          "RSLP": "1",
+          "ILIN": "0"
+        },
+        "channels": [
+          "X",
+          "Y",
+          "R",
+          "theta",
+          "freq",
+          "display1",
+          "display2",
+          "slvl",
+          "oflt",
+          "ampl",
+          "auxout1",
+          "auxout2",
+          "auxout3",
+          "auxout4"
+        ],
+        "class": "qd.ins.SR830LockIn"
+      },
+      {
+        "field": {
+          "z": 0,
+          "x": 0
+        },
+        "model": "OxfMagnet",
+        "sensitivity": 1.0E-4,
+        "registered_name": "magnet",
+        "name": "magnet",
+        "channels": [
+          "x",
+          "z"
+        ],
+        "class": "qd.ins.OxfMagnet"
+      },
+      {
+        "model": "Keithley 2600",
+        "registered_name": "smua",
+        "name": "smua",
+        "channels": [
+          "i",
+          "v",
+          "r"
+        ],
+        "class": "qd.ins.Keithley2600"
+      },
+      {
+        "model": "Keithley 2600",
+        "registered_name": "smub",
+        "name": "smub",
+        "channels": [
+          "i",
+          "v",
+          "r"
+        ],
+        "class": "qd.ins.Keithley2600"
+      },
+      {
+        "model": "Triton",
+        "registered_name": "triton",
+        "name": "triton",
+        "channels": [
+          "COOL",
+          "MC",
+          "PT1",
+          "PT2",
+          "STIL",
+          "MC_cernox",
+          "cooling_water",
+          "TSET",
+          "TSET_STEP",
+          "RAMP",
+          "RATE",
+          "RANGE",
+          "CCHAN"
+        ],
+        "class": "qd.ins.Triton",
+        "temperatures": {
+          "cooling_water": 19.2,
+          "STIL": 0.847847,
+          "CCHAN": 5,
+          "RATE": 1,
+          "TSET_STEP": 20.8805,
+          "MC_cernox": 0.0345755,
+          "TSET": 20.8805,
+          "RANGE": 0.0316,
+          "COOL": 1.41834,
+          "PT1": 53.5381,
+          "PT2": 3.72148,
+          "MC": 0.0345755,
+          "RAMP": "OFF"
+        }
+      },
+      {
+        "model": "Time",
+        "registered_name": "Time",
+        "name": "Time",
+        "channels": ["time"],
+        "class": "qd.ins.Time"
+      }
+    ]
+  },
+  "timestamp": "2014-10-14 17:46:51",
+  "name": "BG[2.7,4] SD=0 only right arm",
+  "setup": {
+    "channels": [
+      "source",
+      "source",
+      "Bz",
+      "Bx",
+      "backgate"
+    ],
+    "instruments": [
+      "lockin_right",
+      "lockin_left",
+      "indiana",
+      "henry",
+      "dac",
+      "smua",
+      "smub",
+      "triton",
+      "magnet"
+    ],
+    "meta": {
+      "current_amp_right": 1.0E8,
+      "current_amp_left": 1.0E8,
+      "lock_sig_source": "lockin_right",
+      "lock_sig_divider": 100000,
+      "source_divider": 1000
+    }
+  },
+  "columns": [
+    {"name": "backgate"},
+    {"name": "MC"},
+    {"name": "time"},
+    {"name": "henry/in"},
+    {"name": "lockin_right/X"},
+    {"name": "lockin_right/Y"}
+  ],
+  "job": {
+    "to": 4,
+    "chan": "backgate",
+    "job": {
+      "job": {
+        "inputs": [
+          "MC",
+          "time",
+          "henry/in",
+          "lockin_right/X",
+          "lockin_right/Y"
+        ],
+        "type": "Inputs"
+      },
+      "settle": 0.06,
+      "type": "Settle"
+    },
+    "repeats": 1000,
+    "points": 1000,
+    "from": 2.7,
+    "type": "Sweep"
+  },
+  "type": "Q",
+  "meta": {},
+  "version": "0.0.1"
+}
